@@ -1,0 +1,104 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef9e7; /* Warm beige */
+    color: #4d2600; /* Deep brown */
+}
+
+a {
+    text-decoration: none;
+    color: #d35400; /* Warm orange */
+}
+
+a:hover {
+    color: #e67e22; /* Brighter orange */
+}
+
+/* Header Styles */
+header {
+    background-color: #d35400; /* Warm orange */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header nav a {
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styles */
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f39c12; /* Golden yellow */
+    color: #fff;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+/* About Section Styles */
+#about {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fad7a0; /* Light warm orange */
+}
+
+#about h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f5cba7; /* Peach */
+}
+
+#projects h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#projects p {
+    font-size: 1.1rem;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4d2600; /* Deep brown */
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

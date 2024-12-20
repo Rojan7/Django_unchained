@@ -1,0 +1,119 @@
+/* contact-styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef9e7; /* Warm beige */
+    color: #4d2600; /* Deep brown */
+}
+
+a {
+    text-decoration: none;
+    color: #d35400; /* Warm orange */
+}
+
+a:hover {
+    color: #e67e22; /* Brighter orange */
+}
+
+/* Header Styles */
+header {
+    background-color: #d35400; /* Warm orange */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header nav a {
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Info Section */
+#contact-info {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fad7a0; /* Light warm orange */
+}
+
+#contact-info h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact-info p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Contact Form Section */
+#contact-form {
+    padding: 40px 20px;
+    background-color: #f5cba7; /* Peach */
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#contact-form h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    border: 1px solid #d35400; /* Warm orange */
+    border-radius: 5px;
+    background-color: #fff5e1;
+}
+
+button {
+    background-color: #d35400; /* Warm orange */
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e67e22; /* Brighter orange */
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4d2600; /* Deep brown */
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

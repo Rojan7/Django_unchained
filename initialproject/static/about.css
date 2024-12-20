@@ -1,0 +1,122 @@
+/* about-styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef9e7; /* Warm beige */
+    color: #4d2600; /* Deep brown */
+}
+
+a {
+    text-decoration: none;
+    color: #d35400; /* Warm orange */
+}
+
+a:hover {
+    color: #e67e22; /* Brighter orange */
+}
+
+/* Header Styles */
+header {
+    background-color: #d35400; /* Warm orange */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header nav a {
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Introduction Section */
+#introduction {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fad7a0; /* Light warm orange */
+}
+
+#introduction h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#introduction p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+#skills {
+    padding: 40px 20px;
+    background-color: #f5cba7; /* Peach */
+}
+
+#skills h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+#skills li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    position: relative;
+    padding-left: 20px;
+}
+
+#skills li::before {
+    content: '✔';
+    color: #d35400; /* Warm orange */
+    position: absolute;
+    left: 0;
+}
+
+/* Experience Section */
+#experience {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fad7a0; /* Light warm orange */
+}
+
+#experience h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#experience p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #4d2600; /* Deep brown */
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
